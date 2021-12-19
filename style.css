@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+#run-btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(29,212,29,0.765);
+  color: black;
+  font-weight: bold;
+  border: 1px solid green;
+  border-radius: 50%;
+  margin-top: 125%;
+  margin-left: 80%;
+  position: fixed;
+  padding-right: 3px;
+  z-index: 100;
+}
+
+.header button:active {
+  background: white;
+  color: black;
+}
+
+.editor {
+  margin: 20px;
+}
+
+.editor .preview iframe {
+  border: none;
+}
+
+.editor .preview {
+  border: solid 2px black;
+  border-radius: 0px;
+  width: 100%;
+  height: 500px;
+}
+
+.editor .code .html-code,
+.editor .code .css-code,
+.editor .code .js-code {
+  border: solid 2px black;
+  border-radius: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.editor .code .html-code-label,
+.editor .code .css-code-label,
+.editor .code .js-code-label,
+.editor .preview-window-label {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.mdbt {
+  text-align: center;
+}
+
+.CodeMirror {
+  height: auto;
+}
+
+#preview-window {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
